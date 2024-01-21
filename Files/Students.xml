@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students>
+	<!--studenti-->
+	<student>
+		<lastname>Zikic</lastname>
+		<firstname>Zika</firstname>
+		<year>2</year>
+	</student>
+	<student>
+		<lastname>Mikic</lastname>
+		<firstname>Mika</firstname>
+		<year>1</year>
+	</student>
+	<student>
+		<lastname>Peric</lastname>
+		<firstname>Pera</firstname>
+		<year>3</year>
+	</student>
+</students>
