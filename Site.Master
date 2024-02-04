@@ -49,6 +49,8 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/ReadXml">Read Xml</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/WriteXml">Write Xml</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,7 +60,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p> Nikola Đurašković &copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
             </footer>
         </div>
     </form>
