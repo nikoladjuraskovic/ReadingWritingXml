@@ -23,7 +23,7 @@ namespace ReadingWritingXML
                 path = Server.MapPath(path);
                 path2 = Server.MapPath(path2);
 
-                CitajXmlFajl(path);
+                CitajXmlFajl(path2);
                 CitajXmlFajlGridView(path2);
 
 
@@ -81,6 +81,13 @@ namespace ReadingWritingXML
                         //stampaj u visual studiju njegov tip i tekst
                         System.Diagnostics.Debug.WriteLine("Type: " + reader.NodeType + ", text: " + reader.Value);
                     }
+                    else if(reader.NodeType == XmlNodeType.Element || reader.NodeType == XmlNodeType.EndElement)
+                        
+                    {
+                        //stampaj tip cvora i name xml elementa(otvarajuci tag) odnosno xml end elementa(zatvarajuci tag)
+                        System.Diagnostics.Debug.WriteLine("Type: " + reader.NodeType + ", name: " + reader.Name);
+                    }
+
                     else
                     {
                         //u ostalim slucajevima stampaj tip cvora i ime cvora
@@ -172,6 +179,11 @@ namespace ReadingWritingXML
                     }
                 }
             }
+
+
+
+
+
 
 
             //metod Sort sortira listu Studenata na osnovu prosledjenog argumenta(staticka fja Compare).

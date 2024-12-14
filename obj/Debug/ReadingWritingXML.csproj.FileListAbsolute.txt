@@ -68,6 +68,6 @@ C:\Users\Nikola\source\repos\ReadingWritingXML\bin\Microsoft.AspNet.FriendlyUrls
 C:\Users\Nikola\source\repos\ReadingWritingXML\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingWritingXML.csproj.AssemblyReference.cache
 C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingWritingXML.csproj.CoreCompileInputs.cache
-C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingWritingXML.csproj.CopyComplete
 C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingWritingXML.dll
 C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingWritingXML.pdb
+C:\Users\Nikola\source\repos\ReadingWritingXML\obj\Debug\ReadingW.DD5F314E.Up2Date
